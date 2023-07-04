@@ -1,6 +1,6 @@
 # Getting a better intuition for Git
 
-Even though I am far from an expert user, I really love Git. It is such an elegant source control system. 
+I really love Git - even though I am definitely not an expert user. It is just such an elegant source control system. 
 However, it can be hard to fix your repository after accidentally running the wrong commands. 
 These git issues (or gissues as my colleagues called them) always remind me of the following XKCD comic.
 ![XKCD git comic](https://imgs.xkcd.com/comics/git.png)
