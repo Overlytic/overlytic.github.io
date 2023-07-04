@@ -12,9 +12,9 @@ This comic came to mind again when I was asked to give a git training session to
 I really wanted to find a way to transfer the intuition of branches and merging.
 
 By far the best resource I found for this was [learngitbranching](https://learngitbranching.js.org). 
-I really wish I had access to this website when I was learning git. 
+I really wish I had access to this website when I was learning Git. 
 
-![image](https://github.com/Overlytic/overlytic.github.io/blob/2e0a1d2c59320881a279794491dd6052fa444f54/images/learngitbranching_merge.gif)
+![image](../images/learngitbranching_merge.gif)
 
 It is an interactive javascript website which allows you to run simplified git commands and then visualises their effect on commits (shown as colourful circles). 
 
