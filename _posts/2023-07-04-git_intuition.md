@@ -21,5 +21,5 @@ See the example below.
 
 
 
-Lastly, another useful resource for recovering from gissues is the following: [ohsh*tgit](https://ohshitgit.com/)  
+Lastly, another useful resource for recovering from gissues is [ohsh*tgit](https://ohshitgit.com/)  
 This website shows you the git commands to get out of common mistake situations.  
