@@ -3,6 +3,7 @@
 Even though I wouldn't call myself an expert user, I really love Git. It is just such an elegant source control system. 
 However, it can be hard to fix your repository after accidentally running the wrong commands. 
 These git issues (or gissues as my colleagues called them) always remind me of the following XKCD comic.
+
 ![XKCD git comic](https://imgs.xkcd.com/comics/git.png)
 
 The alt text of the comic states: *"If that doesn't fix it, git.txt contains the phone number of a friend of mine who understands git. 
