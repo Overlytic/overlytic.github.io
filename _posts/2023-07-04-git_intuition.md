@@ -5,8 +5,8 @@ However, it can be hard to fix your repository after accidentally running the wr
 These git issues (or gissues as my colleagues called them) always remind me of the following XKCD comic.
 ![XKCD git comic](https://imgs.xkcd.com/comics/git.png)
 
-The alt text of the comic states: "If that doesn't fix it, git.txt contains the phone number of a friend of mine who understands git. 
-Just wait through a few minutes of *"It's really pretty simple, just think of branches as...' and eventually you'll learn the commands that will fix everything."* 
+The alt text of the comic states: *"If that doesn't fix it, git.txt contains the phone number of a friend of mine who understands git. 
+Just wait through a few minutes of 'It's really pretty simple, just think of branches as...' and eventually you'll learn the commands that will fix everything."* 
 
 This comic came to mind again when I was asked to give a git training session to new interns.
 I really wanted to find a way to transfer the intuition of branches and merging.
