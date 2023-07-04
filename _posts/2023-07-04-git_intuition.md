@@ -13,12 +13,12 @@ I really wanted to find a way to transfer the intuition of branches and merging.
 
 By far the best resource I found for this was [learngitbranching](https://learngitbranching.js.org). 
 I really wish I had access to this website when I was learning Git. 
+It is an interactive javascript website which allows you to run simplified git commands and then visualises their effect on commits (shown as colourful circles).
+See the example below.
 
 ![image](https://github.com/Overlytic/overlytic.github.io/blob/master/images/learngitbranching_merge.gif?raw=true)
 
-It is an interactive javascript website which allows you to run simplified git commands and then visualises their effect on commits (shown as colourful circles). 
 
 
-
-Another very useful resource for recovering from gissues is the following: [ohsh*tgit](https://ohshitgit.com/)
-
+Lastly, another useful resource for recovering from gissues is the following: [ohsh*tgit](https://ohshitgit.com/)  
+This website shows you the git commands to get out of common mistake situations.  
