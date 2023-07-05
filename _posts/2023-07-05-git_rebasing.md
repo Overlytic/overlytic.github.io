@@ -1,3 +1,5 @@
-# What I found confusing about Git rebasing?
+---
+title: A less confusing way to git rebase
+---
 
 WIP
