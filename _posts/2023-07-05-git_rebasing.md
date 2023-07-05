@@ -9,11 +9,12 @@ hidden: true
 When I was learning git, I remember struggling with the `git rebase` function.
 I am sure I am not the only one, so hopefully an explanation of what I found confusing will be able to help somebody else too.
 
-First, let's zoom out a bit. As a source control system, git makes it possible to integrate code changes into a source code repository. For simplicity, let's assume the git repository has a main branch for the main code base and a feature branch where a new feature is being developed. After completion, the feature branch has to be integrated into the main branch. Git provides two main ways of achieving this namely merging and rebasing. 
+First, let's zoom out a bit. As a source control system, git makes it possible to integrate code changes into a source code repository. For simplicity, let's assume the git repository has a main branch for the main code base and a feature branch where a new feature is being developed. After completion, the feature branch has to be integrated into the main branch. Git provides two main ways of achieving this: merging and rebasing. 
 
-*todo: high level description of merging vs rebasing?*
+Git merge combines the changes of one branch (e.g. feature) and adds it to the target branch (e.g. main). This is the simpler option between the two that has the advantage that all the history of the branches is maintained for future reference. However, the disadvantage is that history can become cluttered and harder to follow.  
 
-There are advantages and disadvantages to both approaches, and developers can be quite quite polarised strongly prefer one over the other. ...
+Git rebasing on the other hand recreates the commits of a branch (e.g. feature) as if they occurred at the end of another branch (e.g. main). This makes it possible to have a more streamlined commit history that is easier to follow. However, the drawback is that the command is rewriting history, which is a more involved process. Conflicts during the process can be harder to resolve. It's also very important to not rewrite the history of public branches that other people rely on (more about this later).
+
 ...
 
 *todo: setup of previous example*
@@ -25,6 +26,8 @@ git switch feature
 git commit
 git commit
 ```
+
+
 
 **todo: merging explanation + revisit previous example gif + permalink**
 
@@ -75,18 +78,12 @@ git switch main
 git rebase feature
 ```
 
-More compact approaches:
-
-Approach 1:
+Shortened:
 ```
-# Merge the feature branch into the main branch
-git merge feature main
-```
-
-Approach 2:
-```
-# Rebase the feature branch into the main branch
+# Rebase onto the tip of the main branch the commits from the feature branch
 git rebase main feature
+
+# Rebase onto the tip of the feature branch the commits from the main branch
 git rebase feature main
 ```
 
@@ -96,6 +93,8 @@ Golden rule:
 *link: [atlassian merge and rebase tutorial](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)*
 
 ```
+# Rebase onto the tip of the main branch the commits from the feature branch
 git rebase main feature
-git merge feature main
+git switch main
+git merge feature
 ```
