@@ -9,7 +9,7 @@ hidden: true
 When I was learning git, I remember struggling with the `git rebase` function.
 I am sure I am not the only one, so hopefully an explanation of what I found confusing will be able to help somebody else too.
 
-First, let's zoom out a bit. As a source control system, git makes it possible to integrate code changes into a source code repository. For simplicity, let's assume the git repository has a main branch for the main code base and a feature branch where a new feature is being developed. Git provides two main ways of incorporating code changes from one branch into another branch, namely merging and rebasing. 
+First, let's zoom out a bit. As a source control system, git makes it possible to integrate code changes into a source code repository. For simplicity, let's assume the git repository has a main branch for the main code base and a feature branch where a new feature is being developed. After completion, the feature branch has to be integrated into the main branch. Git provides two main ways of achieving this namely merging and rebasing. 
 
 *todo: high level description of merging vs rebasing?*
 
